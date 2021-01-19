@@ -51,7 +51,8 @@
 }
 
 /* font-family: 'JustLettersMedium'; */
-font-family: 'Lucida Blackletter';
+@font-family: 'Lucida Blackletter';
+
 font-weight: normal;
 font-style: normal;
 font-size: 36px;
