@@ -1,10 +1,12 @@
 			* {
-				font-family: Arial, Verdana, sans-serif;
+				font-family: 'Dancing Script';
 				color: #665544;
 				text-align: center;}
 			body {
 				width: 90%;
-				margin: 0 auto;}
+				margin: 0 auto;
+background-image: url(" ");
+}
 			#content {
 				overflow: auto;}
 			#nav, #feature, #footer {
@@ -25,3 +27,29 @@
 				height: 10em;
 				margin-bottom: 1em;
 				background-color: #efefef;}
+section.feature{
+background-color: azure;
+background-image: url(" ");
+}
+
+article.column1{
+background-color: aliceblue;
+}
+
+article.column2{
+background-color: aquamarine;
+}
+
+article.column3{
+background-color: blue;
+}
+
+nav{
+background-color: #cyan;
+				padding: 0.5em 0;
+}
+
+footer {
+background-color: #cadetblue;
+				padding: 0.5em 0;
+} 
