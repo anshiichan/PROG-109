@@ -5,7 +5,7 @@
 			body {
 				width: 90%;
 				margin: 0 auto;
-background-image: url("../images/liprofile.png");
+background-image: url("https://anshiichan.github.io/PROG-109/images/liprofile.png");
 }
 			#content {
 				overflow: auto;}
@@ -26,7 +26,7 @@ background-image: url("../images/liprofile.png");
 				background-color: #efefef;}
 section.feature {
 background-color: azure;
-background-image: url("../images/abstract-background.jpg");
+background-image: url("https://anshiichan.github.io/PROG-109/images/abstract-background.jpg");
 }
 
 article.column1 {
