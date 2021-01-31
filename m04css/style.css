@@ -25,10 +25,12 @@ background-image: url("https://anshiichan.github.io/PROG-109/images/liprofile.pn
 				margin-bottom: 1em;
 				background-color: #efefef;}
 section.feature {
+height: 300px;
 background-color: azure;
 background-image: url("https://anshiichan.github.io/PROG-109/images/abstract-background.jpg");
 background-size: 25% 25%;
 background-position: right center;
+background-repeat: no-repeat;
 }
 
 article.column1 {
