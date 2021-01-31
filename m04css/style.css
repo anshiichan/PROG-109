@@ -1,5 +1,5 @@
 			* {
-				font-family: 'Dancing Script';
+				font-family: Arial, Verdana, sans-serif;
 				color: #665544;
 				text-align: center;}
 			body {
@@ -24,6 +24,11 @@ background-image: url("https://anshiichan.github.io/PROG-109/images/liprofile.pn
 				height: 10em;
 				margin-bottom: 1em;
 				background-color: #efefef;}
+
+h1 {
+font-family: 'Dancing Script';
+}
+
 section.feature {
 height: 150px;
 background-color: azure;
