@@ -5,7 +5,7 @@
 			body {
 				width: 90%;
 				margin: 0 auto;
-background-image: url(" ");
+background-image: url("images/liprofile.png");
 }
 			#content {
 				overflow: auto;}
@@ -26,7 +26,7 @@ background-image: url(" ");
 				background-color: #efefef;}
 section.feature {
 background-color: azure;
-background-image: url(" ");
+background-image: url("images/abstract-background.jpg");
 }
 
 article.column1 {
