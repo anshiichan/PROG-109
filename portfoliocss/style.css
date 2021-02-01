@@ -1,0 +1,79 @@
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+			body {
+				width: 90%;
+				margin: 0 auto;
+background-image: url("https://anshiichan.github.io/PROG-109/images/liprofile.png");
+}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column3 {
+				margin-right: 0%;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #efefef;}
+
+h1 {
+font-family: 'Lobster';
+font-weight: normal;
+color: white;
+}
+
+.feature {
+height: 150px;
+background-color: azure;
+background-image: url("https://anshiichan.github.io/PROG-109/images/abstract-background.jpg");
+background-size: 25% 100%;
+background-position: right center;
+background-repeat: no-repeat;
+}
+
+.column1 {
+background-color: aliceblue;
+}
+
+.column2 {
+background-color: aquamarine;
+}
+
+.column3{
+background-color: blue;
+}
+
+nav {
+background-color: #3db2c2;
+padding: 0.5em 0;
+}
+
+footer {
+background-color: #B0E0E6;
+padding: 0.5em 0;
+}
+
+a:link {
+color: #483D8B;
+}
+
+a:visited {
+color: #008080;
+}
+
+A:hover {
+color: #1E90FF;
+}
+
+a:active {
+color: #FFFAFA;
+}
