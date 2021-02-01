@@ -29,6 +29,7 @@ h1 {
 font-family: 'Lobster';
 font-weight: normal;
 color: white;
+display: inline;
 }
 
 .feature {
