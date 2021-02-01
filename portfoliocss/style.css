@@ -79,3 +79,9 @@ color: #1E90FF;
 a:active {
 color: #FFFAFA;
 }
+
+#title {
+position: fixed;
+width: 100%;
+
+}
