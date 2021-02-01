@@ -56,6 +56,7 @@ background-color: blue;
 nav {
 background-color: #3db2c2;
 padding: 0.5em 0;
+display: inline;
 }
 
 footer {
