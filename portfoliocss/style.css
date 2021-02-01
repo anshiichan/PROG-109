@@ -67,18 +67,22 @@ padding: 0.5em 0;
 
 a:link {
 color: #483D8B;
+text-decoration: none;
 }
 
 a:visited {
 color: #008080;
+text-decoration: none;
 }
 
 A:hover {
 color: #1E90FF;
+text-decoration: underline;
 }
 
 a:active {
 color: #FFFAFA;
+text-decoration: underline;
 }
 
 /*
