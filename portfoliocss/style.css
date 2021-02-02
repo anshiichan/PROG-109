@@ -87,6 +87,10 @@ a.current:link { color: #000000; text-decoration: underline}
 a.current:visited { color: #008080; text-decoration: none}
 a.current:hover { color: #FFFFFF; text-decoration: none}
 
+img.artifact {
+height: 150px;
+}
+
 /*
 #title {
 position: fixed;
