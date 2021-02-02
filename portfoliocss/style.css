@@ -36,12 +36,7 @@ h1 {
 }
 
 .feature {
-height: 150px;
 background-color: azure;
-background-image: url("https://anshiichan.github.io/PROG-109/images/abstract-background.jpg");
-background-size: 25% 100%;
-background-position: right center;
-background-repeat: no-repeat;
 }
 
 .column1 {
