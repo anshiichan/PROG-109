@@ -106,6 +106,10 @@ img.artifact:hover {
 clear: both;
 }
 
+div.floatleft {
+float: left;
+}
+
 /*
 #title {
 position: fixed;
