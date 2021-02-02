@@ -107,6 +107,7 @@ clear: both;
 }
 
 .left {
+display: inline-block;
 float: left;
 }
 
