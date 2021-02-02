@@ -58,6 +58,7 @@ nav {
 	font-weight: normal;
 	background-color: #3db2c2;
 	padding: 0.5em 0;
+	overflow: auto;
 }
 
 footer {
