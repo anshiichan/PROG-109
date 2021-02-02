@@ -90,8 +90,8 @@ a.current:hover { color: #FFFFFF; text-decoration: none}
 img.artifact {
 height: auto; 
     width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
+    max-width: 300px; 
+    max-height: 300px;
 border: 1px solid #ddd;
 border-radius: 4px;
 padding: 5px;
