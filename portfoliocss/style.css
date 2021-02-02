@@ -88,9 +88,9 @@ color: #FFFAFA;
 text-decoration: underline;
 }
 
-a.current:link { color: #FFFFFF; text-decoration: none}
-a.current:visited { color: #FFFFFF; text-decoration: none}
-a.current:hover { color: #FFFFFF; text-decoration: underline}
+a.current:link { color: #000000; text-decoration: underline}
+a.current:visited { color: #008080; text-decoration: none}
+a.current:hover { color: #FFFFFF; text-decoration: none}
 
 /*
 #title {
