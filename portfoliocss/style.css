@@ -106,9 +106,16 @@ img.artifact:hover {
 clear: both;
 }
 
-.left {
-display: inline-block;
-float: left;
+.nav1 {
+	width: 23%;
+	float: left;
+	margin: 1%;
+}
+
+.nav2 {
+	width: 73%;
+	float: left;
+	margin: 1%;
 }
 
 /*
