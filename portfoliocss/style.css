@@ -60,7 +60,7 @@ a.current:hover { color: #FFFFFF; text-decoration: none}
 
 img.artifact {
 height: auto;  
-max-width: 300%; 
+max-width: 100%; 
 border: 1px solid #ddd;
 border-radius: 4px;
 padding: 5px;
