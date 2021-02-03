@@ -1,7 +1,7 @@
 body {
 	background-image: url("../images/background.jpg");
 	text-align: center;
-	margin: 0;
+	margin: 0px;
 }
 
 
@@ -18,12 +18,14 @@ nav {
 	background-color: #3db2c2;
 	padding: 0.5em 0;
 	overflow: auto;
+	height: 50px;
+	line-height: 50px;
 }
 
 .nav1 {
 	width: 18%;
 	float: left;
-	margin: 1%;
+	margin: 0;
 }
 
 .nav2 {
