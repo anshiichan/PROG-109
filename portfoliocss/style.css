@@ -105,6 +105,10 @@ li {
 	overflow: auto;
 }
 
+.left {
+	text-align: left;
+}
+
 .column1 {
 	background-color: aliceblue;
 }
