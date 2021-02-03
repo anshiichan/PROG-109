@@ -2,22 +2,30 @@ input {
 	width: 100%;
 }
 
+
+/* padded inputs */
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 
-border-radius: 4px;
 
+/* for rounded corners */
+border-radius: 4px; 
+
+
+/* bottom border only */
   border: none;
   border-bottom: 2px solid red;
 }
 
+/* focused input */
 input[type=text]:focus {
   border: 3px solid #555;
 }
 
+/* remove resize element in texture input */
 textarea {
   width: 100%;
   height: 150px;
@@ -25,10 +33,11 @@ textarea {
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: #FFF;
   resize: none;
 }
 
+/* input button style */
 input[type=button], input[type=submit], input[type=reset] {
   background-color: #4CAF50;
   border: none;
@@ -37,4 +46,13 @@ input[type=button], input[type=submit], input[type=reset] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 4px; 
+  transition-duration: 0.4s;
+}
+
+/* submit button hover */
+input[type=submit]:hover {
+  background-color: #FFF;
+  color: #000;
+  border: 2px solid #4CAF50;
 }
