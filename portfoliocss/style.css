@@ -80,9 +80,6 @@ clear: both;
 	overflow: auto;
 }
 
-#feature, #footer {
-	margin: 1%;}
-
 .column1, .column2, .column3 {
 	width: 31.3%;
 	float: left;
@@ -95,7 +92,7 @@ li {
 	display: inline;
 	padding: 0.5em;}
 
-#feature, .article {
+.article {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #efefef;
@@ -121,6 +118,7 @@ background-color: azure;
 footer {
 	background-color: #B0E0E6;
 	padding: 0.5em 0;
+	margin: 1%;
 }
 
 /*
