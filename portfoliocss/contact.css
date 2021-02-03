@@ -17,7 +17,7 @@ border-radius: 4px;
 
 /* bottom border only */
   border: none;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #3db2c2;
 }
 
 /* focused input */
