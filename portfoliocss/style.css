@@ -20,6 +20,7 @@ nav {
 	overflow: auto;
 	height: 50px;
 	line-height: 50px;
+	margin-bottom: 5px;
 }
 
 .nav1 {
@@ -100,7 +101,8 @@ li {
 }
 
 .feature {
-background-color: azure;
+	background-color: azure;
+	overflow: auto;
 }
 
 .column1 {
