@@ -77,7 +77,7 @@ clear: both;
 
 #content {
 	width: 90%;
-	margin: 0 auto;
+	margin: auto;
 	overflow: auto;
 }
 
@@ -107,6 +107,7 @@ li {
 
 .left {
 	text-align: left;
+	margin-left: 5%;
 }
 
 .column1 {
