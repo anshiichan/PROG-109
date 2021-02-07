@@ -1,6 +1,7 @@
-var value = prompt("Please enter a number 0-10:", "example: 1");  //Prompt to obtain user submitted value
+/* Prompt to obtain user submitted value
+Validates against values greater than 10, less than 0, Null, and cancel */
 
-if (value > 10) {
+while (value == '' || value == null || !(value <= 10) || !(value >= 0)) {
   var value = prompt("Please enter a number 0-10", "example: 1");
 }
 
