@@ -7,7 +7,7 @@ while (value == '' || value == null || !(value <= 10) || !(value >= 0)) {
 
 var table = value;             // Unit of table, from user inputted number
 var operator = 'multiplication'; // Type of calculation
-var i = 1;                 // Set counter to 1
+var i = 0;                 // Set counter to 1
 var msg = '<h2>Multiplication Table</h2>';              // Message
 
 if (operator === 'multiplication') {
