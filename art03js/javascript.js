@@ -20,7 +20,7 @@ rLine +="<p>";
 
 
 //Fill in the left side
-for (x=1; x<=pHeight-i; x++){
+for (x=1; x<pHeight-i; x++){
 //rLine +="-";
 rLine +="<span class='space'>" + pSymbol +"</span>";
 }
@@ -77,15 +77,13 @@ document.getElementById("upRight").innerHTML = rLine;
 
 
 
-
-
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
 for (i=pHeight;i > 0;i--){
 rLine +="<p>";
 
 //Fill in the left side
-for (x=0; x<=pHeight-i; x++){
+for (x=0; x<pHeight-i; x++){
 //rLine +="-";
 rLine +="<span class='space'>" + pSymbol +"</span>";
 }
