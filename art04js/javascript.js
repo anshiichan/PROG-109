@@ -59,7 +59,7 @@ else
 
 var validUsername=false;
 var user = document.getElementById("user").value;
-if (username==="null" || username==="" || user.length > 12)
+if (user==="null" || user==="" || user.length > 12)
     errorMessages += "<p>The username is required and cannot be greater than 12 characters</p>";
 else
    validUsername = true;
