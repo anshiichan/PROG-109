@@ -42,10 +42,6 @@ else
 var validPhone = false;
 var phone = document.getElementById("phone").value;
 
-
-
-
-
 if (isNaN(phone) || phone.length >15 || phone===null || phone==="")
 //send error message. For example 
 errorMessages += "<p>Invalid phone number </p>";
@@ -62,8 +58,8 @@ else
 
 
 var validUsername=false;
-var username = document.getElementById("username").value;
-if (username==="null" || username==="" || username.length > 12)
+var user = document.getElementById("user").value;
+if (username==="null" || username==="" || user.length > 12)
     errorMessages += "<p>The username is required and cannot be greater than 12 characters</p>";
 else
    validUsername = true;
