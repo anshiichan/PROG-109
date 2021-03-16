@@ -1,5 +1,9 @@
 @import "contact.css"; /* contact.html CSS file for forms*/ 
 
+#errorMessages{
+color:red;
+}
+
 body {
 	background-image: url("../images/background.jpg");
 	text-align: center;
