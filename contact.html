@@ -6,6 +6,7 @@
 		<meta name="author" content="P Vo">
 		<link href="portfoliocss/style.css" type="text/css" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Shadows+Into+Light&display=swap" rel="stylesheet" type="text/css" />
+		<script src="portfoliojs/javascript.js"></script>
 		<title>Contact</title>
 	</head>
 	<body>
@@ -28,21 +29,24 @@
 				<h3>Questions?</h3>
 				<p>Please fill out the below form for assistance.</p>
 
-				<form action="thankyou.html" method="get" name="myContact">
+				<form action="thankyou.html" onsubmit="return validateForm();">
 					<p><label for="name">Name:</label><br />
 					<input type="text" id="name" name="name"></p>
 					<p><label for="email">Email Address:</label><br />
 					<input type="text" id="email" name="email"></p>
-					<p><label for="comment">Comments:</label><br/>
-					<textarea id="comment" name="comment" rows="10" cols="30"></textarea></p>
+					<p><label for="comments">Comments:</label><br/>
+					<textarea id="comments" name="comments" rows="10" cols="30"></textarea></p>
 					<p><input type="submit" value="Submit"></p>
-				</form><br />
+				</form>
 
-				</div>
+				<div id="errorMessages"></div>
+
+				</div><br />
+
 			</article>
+
+
 		</div>
-<div id="errorMessages"></div>
-    <script src="portfoliojs/javascript.js"></script>
 
 	<footer id="footer">
 		<p>&copy; Copyright 2021</p>
